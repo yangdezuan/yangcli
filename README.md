@@ -15,4 +15,4 @@ Email:(xxx@xxxx.com)
 
 npm publish .
 24 小时后可以删除
-npm deprecate -f yangcli "不在维护了"
+npm deprecate -f 6yang-cli "不在维护了"
