@@ -6,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "basic",
+    "plugin",
+    "npm",
+    "node"
+  ],
+  "author": "yangdezuan",
   "bin": {
     "yang": "./bin/yang.js"
   },
@@ -18,5 +22,10 @@
     "fs-extra": "^8.1.0",
     "global-prefix": "^3.0.0",
     "lodash": "^4.17.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yangdezuan/yangcli.git"
+  },
+  "license": "MIT"
 }
