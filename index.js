@@ -3,7 +3,7 @@
  */
 
 const hello = function(key) {
-  console.log('Hello World!')
+  console.log('Hello World, welcome to learn npm!')
 }
 
 exports.hello = hello
