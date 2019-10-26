@@ -6,3 +6,11 @@
 ## 单元测试
 
 node test
+
+## 发布命令
+
+npm adduser
+Username:xxxx
+Email:(xxx@xxxx.com)
+
+npm publish .
