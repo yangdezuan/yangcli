@@ -3,12 +3,12 @@
  */
 const fs = require('fs-extra')
 
-const name = 'yang'
+const name = 'test'
 const pageFile = './src/page/' + name + '/' + name + '.vue'
 const styleFile = './src/page/' + name + '/' + name + '.less'
 fs.pathExists(pageFile, (err, exists) => {
   if (exists) {
-    console.log('this file has created')
+    console.log('当前文件夹已经被创建')
   } else {
     fs.copy('./src/template/page.vue', pageFile, err => {
       if (err) return console.error(err)
