@@ -2,7 +2,9 @@
  * Created by jackyang on 19/10/26.
  */
 const fs = require('fs-extra')
-
+const prefix = require('global-prefix')
+console.log(prefix)
+return
 const name = 'test'
 const pageFile = './src/page/' + name + '/' + name + '.vue'
 const styleFile = './src/page/' + name + '/' + name + '.less'

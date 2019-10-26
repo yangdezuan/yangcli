@@ -22,7 +22,7 @@ exports.run = function(type, name) {
             console.log(pageFile + '  has created')
           })
           fs.copy(
-            prefix + '/node_modules/yangcli/src/template/page.vue',
+            prefix + '/node_modules/6yang-cli/src/template/page.vue',
             pageFile,
             err => {
               if (err) return console.error(err)
