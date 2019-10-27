@@ -1,7 +1,7 @@
 {
   "name": "6yang-cli",
-  "version": "1.0.5",
-  "description": "fixed Identifier 'pageFile' has already been declared",
+  "version": "1.0.6",
+  "description": "upadte generate type description",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

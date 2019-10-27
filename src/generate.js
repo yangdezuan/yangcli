@@ -110,10 +110,10 @@ exports.run = function(type, name) {
           console.log('    $ yang g page product')
           console.log()
           console.log(chalk.gray('    # create a new component'))
-          console.log('    $ yang g component  product')
+          console.log('    $ yang g component product')
           console.log()
-          console.log(chalk.gray('    # create a new store'))
-          console.log('    $ yang g store  product')
+          console.log(chalk.gray('    # create a new local'))
+          console.log('    $ yang g local product')
           console.log()
           break
       }
