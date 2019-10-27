@@ -15,4 +15,7 @@ Email:(xxx@xxxx.com)
 
 npm publish .
 24 小时后可以删除
+如果想撤销发布使用命令
 npm deprecate -f 6yang-cli "不在维护了"
+or
+npx force-unpublish 6yang-cli "remove and unsupport"
