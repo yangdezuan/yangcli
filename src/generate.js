@@ -13,14 +13,14 @@ exports.run = function(type, name) {
     } else {
       switch (type) {
         case 'local':
-          const pageFile = './src/page/' + name + '/' + name + '.vue'
-          const styleFile = './src/page/' + name + '/' + name + '.less'
-          const jsFile = './src/page/' + name + '/' + name + '.js'
+          var pageFile = './src/page/' + name + '/' + name + '.vue'
+          var styleFile = './src/page/' + name + '/' + name + '.less'
+          var jsFile = './src/page/' + name + '/' + name + '.js'
           fs.pathExists(pageFile, (err, exists) => {
             if (exists) {
               console.log('this file has created')
             } else {
-              fs.copy('/src/template/page.vue', pageFile, err => {
+              fs.copy('./src/template/page.vue', pageFile, err => {
                 if (err) return console.error(err)
                 console.log(pageFile + '  has created')
               })
@@ -28,9 +28,9 @@ exports.run = function(type, name) {
           })
           break
         case 'page':
-          const pageFile = './src/page/' + name + '/' + name + '.vue'
-          const styleFile = './src/page/' + name + '/' + name + '.less'
-          const jsFile = './src/page/' + name + '/' + name + '.js'
+          var pageFile = './src/page/' + name + '/' + name + '.vue'
+          var styleFile = './src/page/' + name + '/' + name + '.less'
+          var jsFile = './src/page/' + name + '/' + name + '.js'
           fs.pathExists(pageFile, (err, exists) => {
             if (exists) {
               console.log('this file has created')
@@ -63,9 +63,9 @@ exports.run = function(type, name) {
           })
           break
         case 'component':
-          const componentFile = './src/components/' + name + '/' + name + '.vue'
-          const cssFile = './src/components/' + name + '/' + name + '.less'
-          const jsxFile = './src/components/' + name + '/' + name + '.js'
+          var componentFile = './src/components/' + name + '/' + name + '.vue'
+          var cssFile = './src/components/' + name + '/' + name + '.less'
+          var jsxFile = './src/components/' + name + '/' + name + '.js'
           fs.pathExists(componentFile, (err, exists) => {
             if (exists) {
               console.log('this file has created')
