@@ -1,7 +1,7 @@
 {
   "name": "6yang-cli",
-  "version": "1.0.3",
-  "description": "replace generate with g",
+  "version": "1.0.4",
+  "description": "add g and page and component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
