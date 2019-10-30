@@ -3,6 +3,17 @@
 一个快速生成页面文件的插件，搭配 vue 模版使用。
 创建简单的前端 npm 命令和脚手架
 
+## 常用命令
+#### 创建一个新页面或一个组件时
+-----------------
+  * create a new page (创建一个page页面vue/js/less)
+    > $ yang g page about
+  * create a new component (创建一个component组件 vue/js/less)
+    > $ yang g component about
+  * create a new local (基于当前template copy一份vue文件)
+    > $ yang g local about
+
+node test
 ## 单元测试
 
 node test
