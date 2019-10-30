@@ -13,7 +13,6 @@
   * create a new local (基于当前template copy一份vue文件)
     > $ yang g local about
 
-node test
 ## 单元测试
 
 node test
