@@ -28,3 +28,4 @@ package-lock.json
 
 #build output
 src/page
+src/components
