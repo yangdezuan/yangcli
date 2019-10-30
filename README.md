@@ -5,7 +5,6 @@
 
 ## 常用命令
 #### 创建一个新页面或一个组件时
------------------
   * create a new page (创建一个page页面vue/js/less)
     > $ yang g page about
   * create a new component (创建一个component组件 vue/js/less)
